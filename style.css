@@ -1,0 +1,43 @@
+html {}
+
+:root {
+	--wow_a_color: #531aef;
+}
+
+body {
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 1px solid var(--wow_a_color);
+}
+
+header h1 {
+	text-align: center;
+}
+
+article {
+	border: 1px dashed #eee;
+	margin: 1em 0;
+	padding: 0.5em;
+}
+
+article h1 {
+	margin-top: 0;
+}
+
+article .artinfo {
+	color: gray;
+	font-size: 0.9em;
+}
+
+a {
+	text-decoration: none;
+	color: var(--wow_a_color);
+}
+
+footer {
+	text-align: center;
+	margin-top: 2em;
+}
