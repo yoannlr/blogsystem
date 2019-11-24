@@ -30,6 +30,6 @@ Available commands are:
 ## Can I use it?
 
 Sure.
-However, I would not recommend using it for now, as it's still in early development.
+However, I would not recommend using it for now, as it's still in early development and must contain a lot of bugs.
 
 You can do whatever you want with this code, no need to ask or to credit.

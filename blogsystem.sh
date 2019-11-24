@@ -9,6 +9,7 @@ authorname="Wink'"
 [ ! -d "$articles" ] && echo "$articles does not exist, creating folder" && mkdir "$articles"
 [ -z $EDITOR ] && EDITOR='vim'
 
+# htmlopen - generates the beginning of an html document
 htmlopen() {
 cat << EOF
 <!doctype html>
@@ -26,6 +27,7 @@ cat << EOF
 EOF
 }
 
+# htmlclose - generates the end of an html document
 htmlclose() {
 cat << EOF
 	</main>
@@ -34,7 +36,7 @@ cat << EOF
 EOF
 }
 
-# arttitle - get the title of an article
+# arttitle - gets the title of an article
 arttitle() {
 	src=${1}
 	h1=$(grep '<h1>' < $src)
@@ -91,6 +93,7 @@ artlist() {
 	echo "</ul>"
 }
 
+# newart - creates a new article
 newart() {
 	title="${@}"
 	file=$raw$(echo "$title" | tr -d '[:punct:]' | tr ' ' '_' | tr '[:upper:]' '[:lower:]')'.html'
