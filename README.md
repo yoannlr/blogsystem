@@ -1,5 +1,7 @@
 # bs - Blog (System|Script)
 
+**This project is deprecated, see [sbg](https://raw.githubusercontent.com/yoannlr/yoannlr.github.io/master/sbg) for a newer, better version of it.**
+
 There are plenty of solutions to maintain a blog, here is one more (at least, the beginning)!
 This one is based on simple mechanics (UNIX shell streams) and aims to be pretty lightweight.
 
